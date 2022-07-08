@@ -15,7 +15,7 @@
 
 `downloads` 为默认下载位置，`config` 存储配置文件，内容如下：
 
-- *aria2.conf*：aria2 的设置文件，本仓库提供了一份简单的可以开箱即用的配置方案，更多设置可以参考 AriaNg 界面中的 `Aria2 设置`
+- *aria2.conf*：aria2 的设置文件，本仓库提供了一份简单的可以开箱即用的配置方案，更多设置可以参考 AriaNg 界面中的 **Aria2 设置**
 - *aria2.log*：aria2 的日志文件，默认日志级别设置为 `notice`
 - *aria2.session*：aria2 的会话文件，记录下载的任务状态
 
@@ -27,9 +27,9 @@
 
 克隆仓库到本地，程序和配置文件位于 windows 文件夹中
 
-双击 `Start.vbs` 启动 aria2，然后用浏览器打开 `AriaNg.html`，AriaNg 界面中的 `Aria2 状态` 显示 `已连接` 即可使用
+双击 `Start.vbs` 启动 aria2，然后用浏览器打开 `AriaNg.html`，AriaNg 界面中的 **Aria2 状态** 显示 **已连接** 即可使用
 
-> *aria2.conf* 设置出错会无法启动 aria2，`Aria2 状态` 也一直显示 `连接中` 或 `未连接`
+> *aria2.conf* 设置出错会无法启动 aria2，**Aria2 状态** 也一直显示 **连接中** 或 **未连接**
 
 本仓库还提供以下批处理文件进行管理（双击运行即可）：
 
@@ -52,9 +52,9 @@ chmod +x service.sh clean.sh
 
 运行 `service.sh`，用于创建用户服务并且设置开机自启
 
-用浏览器打开 `AriaNg.html`，AriaNg 界面中的 `Aria2 状态` 显示 `已连接` 即可使用
+用浏览器打开 `AriaNg.html`，AriaNg 界面中的 **Aria2 状态** 显示 **已连接** 即可使用
 
-> *aria2.conf* 设置出错会无法启动 aria2.service，`Aria2 状态` 也一直显示 `连接中` 或 `未连接`
+> *aria2.conf* 设置出错会无法启动 aria2.service，**Aria2 状态** 也一直显示 **连接中** 或 **未连接**
 
 > 本配置方案的默认存储路径为 `/home/username/data/aria2`，自定义需要修改 *aria2.conf* 和 *aria2.service* 中的路径
 
